@@ -1,0 +1,13 @@
+<BloxstrapCustomBootstrapper Version="0" Height="400" Width="625">
+<TitleBar Title="" ShowMinimize="false" ShowClose="true" Visibility="Hidden"/>
+	
+	<Rectangle Fill="#ef323d" Width="900" Height="500" Margin="0,-31,0,0"></Rectangle>
+	
+	<TextBlock Name="StatusText" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-350,0,0" FontSize="25" ZIndex="2"/>
+	
+	<Image Source="theme://mojang.gif" Width="600" Height="350" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-45,0,0" IsAnimated="True"></Image>
+	
+
+	<ProgressBar Name="PrimaryProgressBar" Height="20" Width="450" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,250,0,0" Foreground="#FFFFFF" CornerRadius="0" BorderBrush="White" BorderThickness="2" Background="Transparent">
+	</ProgressBar>
+</BloxstrapCustomBootstrapper>
